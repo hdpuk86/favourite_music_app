@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FavouriteMusic</string>
+    <string name="album_image">album_image</string>
 </resources>

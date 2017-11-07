@@ -29,6 +29,7 @@ public class TopMusicActivity extends AppCompatActivity {
         i.putExtra("artist", song.getArtist());
         i.putExtra("album", song.getAlbum());
         i.putExtra("ranking", song.getRanking().toString());
+        i.putExtra("image", song.getUri());
         startActivity(i);
     }
 }
